@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.row{
+    padding: 10px;
+    display:flex;
+    flex-flow:row;
+    gap: 10px;
+}
+.row div{
+    padding: 20px;
+}
+.col{
+    background-color: #659da1;
+    flex-grow: 1;
+}
+.col-2{
+    background-color: #659da1;
+    flex-grow: 2;
+}
+.col-3{
+    background-color: #659da1; 
+    flex-grow: 3;
+}
