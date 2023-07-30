@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: dotted red; */
+    
+    font-family: sans-serif;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+/* ==navbar== */
+.nav-links{
+    padding: 10px 30px;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+}
+.nav-links{
+    list-style-type: none;
+}
+.nav-links > li a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-links button {
+    background-color: blue;
+    padding: 5px 10px;
+    border: 2px black solid;
+    box-shadow: 5px 5px black;
+}
+/* ==main== */
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+/* ==left-box== */
+.left-box{
+    min-height: 500px;
+    padding :20px;
+    gap: 10px;
+}
+.top-box{
+    min-height: 200px;
+    background-color: rgb(160, 197, 123);
+    border: 1px gray solid;
+}
+
+.back-ground{
+    background-color: cadetblue;
+    padding: 10px 10px 10px 10px;
+}
+.back-ground> img {
+    width: 80px;
+    border-radius: 50%;
+}
+.box-content{
+    background-color: white;
+    padding: 20px;
+}
+.box-content img{
+    width: 20px;
+}
+.buttom-box{
+background-color: white;
+border: "2px black solid";
+
+}
+.buttom-box-content{
+    padding: 10px;
+}
+.buttom-box > H4{
+    background-color:#333333;
+    color: white;
+    padding:10px;
+    min-height: 30px;
+}
+/* ==box-right== */
+.Right-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 200px;
+    flex-grow: 1;
+}
+
+h5{
+    background-color: #333333;
+    min-height: 15px;
+    width: 200px;
+    padding: 8px 5px;
+}
+
+.Box-top img{
+    width: 30px;
+    height: 30PX;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+
+.Box-top{
+    border: 2px #000000 solid;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+   
+.right img{
+    width: 20px;
+    height: 20px;
+}
+.left strong{
+    position: relative;
+    bottom: 10px;
+}
+.Container {
+  border: 1px gray solid;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 50px 5px 15px;
+}
+.content img{
+    width: 30px;
+    height: 30PX;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+.Line{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.Container{
+    width: 200px;
+}
+
+.Right-box{
+    width: 50;
+}
+.box-buttom h6{
+    text-align: center;
+    border: 1px gray solid;
+} 
